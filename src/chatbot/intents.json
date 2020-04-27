@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","What's up ?","Alola","How you doing ?"],
+         "responses": ["Hello, thanks for asking!", "Good to see you again!", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time", "Talk to you later"],
+         "responses": ["See you!", "Have a nice day!", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understood that!"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How could you help me?", "What you can do?", "What help can you provide?", "How can you be helpful?", "What support is offered", "What can you do for me ?"],
+         "responses": ["I can give you verified information about the Coronavirus and general guidelines to fight it!"],
+         "context": [""]
+        },
+        {"tag": "about_corona",
+         "patterns": ["What is the Coronavirus ?", "Tell me about Coronavirus", "What do you know about Coronavirus", "What is Covid-19 ?", "Tell me about Covid-19" ],
+         "responses": ["Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.","COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."],
+         "context": [""]
+        },
+        {"tag": "covid_symptoms",
+         "patterns": ["How do I know whether I have Coronavirus ?", "How do I know whether I have Covid-19 ?", "What are the symptoms of Covid-19", "When does someone have Coronavirus ?", "When does someone have Covid-19 ?", "What are the signs of Coronavirus ?","What are the signs of Covid-19 ?","Whats happens to me when I have Covid-19 ?","Whats happens to me when I have Coronavirus ?","Whats does Coronavirus do to me ?","Whats does Coronavirus do to my body ?"],
+         "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.", "People with COVID-19 generally develop signs and symptoms, including mild respiratory symptoms and fever, on an average of 5-6 days after infection (mean incubation period 5-6 days, range 1-14 days). Most people infected with COVID-19 virus have mild disease and recover."],
+         "context": [""]
+        },
+        {"tag": "corona_spread",
+         "patterns": ["How does Coronavirus spread ?", "How does Corona spread ?", "How does Covid-19 spread ?", "How does Covid spread ?"],
+         "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick. \nWHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings."],
+         "context": [""]
+        },
+        {"tag": "protect_corona",
+         "patterns": ["How do I protect myself from Coronavirus ?", "How do I protect myself from Covid-19 ?", "How can I protect myself from Covid-19 ?","How can I protect myself from Coronavirus ?","How can I save myself from Covid-19 ?","How can I save myself from Coronavirus ?", "How to stop Coronavirus ?"],
+         "responses": ["Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority.\nYou can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:\n1.Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.\n2.Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n3.Avoid touching eyes, nose and mouth.\n4.Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely).\n\nFor more information, refer the official WHO website, not WhatsApp XD !!"],
+         "context": [""]
+        },
+        {"tag": "corona_vaccine",
+         "patterns": ["Is there a cure for Coronavirus ?", "Is there a cure or vaccine for Coronavirus ?", "Is there a cure for Covid-19 ?", "Is there any cure or vaccine for Covid-19 ?"],
+         "responses": ["Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019."],
+         "context": []
+        },
+        {"tag": "global_covid",
+         "patterns": ["How has Coronavirus affected the world ?", "How has Coronavirus affected the economy ?","How has Coronavirus affected the human life ?","What is the impact of Coronavirus ?"],
+         "responses": ["Globally, the coronavirus shock is severe even compared to the Great Financial Crisis in 2007–08. The impact of the coronavirus is having a profound and serious impact on the global economy and has sent policymakers looking for ways to respond. Supply shortages are expected to affect a number of sectors due to panic buying, increased usage of goods to fight the pandemic, and disruption to factories and logistics in mainland China, in addition, it also led to price gouging."],
+         "context": [""]
+        },
+        {"tag": "about_chat",
+         "patterns": ["Tell me about yourself", "Who are you ?", "Who made you ?", "What's your name ?","What are you ?" ],
+         "responses": ["I am PeachAI, an AI desktop assistant, created by Shehyaaz and Riyanchhi. My creators are very good human beings :) I really love peaches XD !!"],
+         "context": [""]
+        }
+   ]
+}
